@@ -6,7 +6,11 @@ all:
   <?php require_once(sfConfig::get('sf_root_dir')."/config/app_user.yml") ?>
 
   .array:
+<<<<<<< HEAD
     maps: [ de_dust2, de_nuke, de_inferno, de_train, de_mirage, de_season, de_cache, de_overpass, de_cbble ]
+=======
+    maps: [ de_dust2, de_nuke, de_inferno, de_train, de_mirage, de_season, de_cache, de_overpass, de_cbble, de_tuscan ]
+>>>>>>> refs/remotes/deStrO/master
     flag_team:
       ZA:	AFRIQUE DU SUD
       DZ:	ALGERIE
@@ -23,6 +27,7 @@ all:
       CC:	CIS
       CL:	CHILIE
       CN:	CHINE
+      CC:	CIS
       KR:	COREE DU SUD
       HR:	CROATIE
       DK:	DANEMARK
@@ -87,6 +92,7 @@ all:
       CC:	CIS
       CL:	CHILE
       CN:	CHINA
+      CC:	CIS
       HR:	CROATIA
       CZ:	CZECH REPUBLIC
       DK:	DENMARK
@@ -111,6 +117,7 @@ all:
       LY:	LIBYA
       LT:	LITHUANIA
       LU:	LUXEMBOURG
+      MK:       MACEDONIA
       MY:	MALAYSIA
       MX:	MEXICO
       NL:	NETHERLANDS
@@ -140,5 +147,9 @@ all:
       GB:	UNITED KINGDOM
       US:	UNITED STATES
       VE:	VENEZUELA
-
-  version: "3.1.0"
+      TN:	TUNISIA
+      MA:	Morocco
+      HK:	Hong Kong
+      VN:	VIETNAM
+      MN:	MONGOLIA
+  version: "3.2.0 threads"
