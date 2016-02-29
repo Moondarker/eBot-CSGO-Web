@@ -6,11 +6,8 @@ all:
   <?php require_once(sfConfig::get('sf_root_dir')."/config/app_user.yml") ?>
 
   .array:
-<<<<<<< HEAD
-    maps: [ de_dust2, de_nuke, de_inferno, de_train, de_mirage, de_season, de_cache, de_overpass, de_cbble ]
-=======
     maps: [ de_dust2, de_nuke, de_inferno, de_train, de_mirage, de_season, de_cache, de_overpass, de_cbble, de_tuscan ]
->>>>>>> refs/remotes/deStrO/master
+    
     flag_team:
       ZA:	AFRIQUE DU SUD
       DZ:	ALGERIE
